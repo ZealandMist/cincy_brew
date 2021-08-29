@@ -1,0 +1,68 @@
+body, html{
+  margin:0; 
+  padding:0;
+  box-sizing:border-box;
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  font-size: 24pt;
+  font-family: 'Bitter', serif;
+  height: 15rem;
+  color: white;
+  background-image: url('juniperphoton-9i2YH9vyfWQ-unsplash.jpg');
+  background-position: center;
+  text-shadow: 5pt 5pt 10pt black;
+  opacity: 0.7;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+h2 {
+  color: dimgray;
+}
+
+h4 {
+  color: gray;
+}
+
+li {
+  color: darkgray;
+}
+
+.container {
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.brewery {
+  border: 1px solid lightgray;
+  border-radius: .5rem;
+  box-shadow: 2pt 4pt 24pt lightgrey;
+  margin: 2rem;
+  padding: 0.5rem;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
